@@ -1,0 +1,43 @@
+body {
+	background-color: gray;
+}
+
+h1 {
+	text-align: center;
+	color: darkslateblue;
+}
+
+.wrapper {
+	width: 70%;
+	margin: auto;
+}
+
+/**************** SECTIONS ****
+**********/
+
+.art1 {
+	border: 3px solid navy;
+}
+.art2 {
+	border: 3px solid brown;
+}
+.art3 {
+	border: 3px solid red;
+}
+.art4 {
+	border: 3px solid green;
+}
+.art5 {
+	border: 3px solid yellow;
+}
+
+/**************************** END OF SECTIONS
+****************************/
+
+.artfooter {
+	background-color: orange;
+}
+
+.main {
+	text-align: center;
+}
