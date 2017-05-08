@@ -7,12 +7,31 @@
 	</head>
 
 	<body>
-		<h1>Pete's Blog</h1>
-		<div class="wrapper">
+
+	<h1>Pete's Blog</h1>
+	<hr>
+	<nav id="nav">
+		<a id="blogList" href=#>Blog List</a>
+		<a id="addEntry" href=#>Add Blog Entry</a>
+	</nav>
+
+		<fieldset class="fieldset" id="add-blog">
+			<legend><strong>Add Blog Entry</strong></legend>
+			Title:     <input id="title" type="text"><br>
+			Date:      <input id="date"type="text"><br>
+			Author:    <input id="author"type="text"><br>
+			Blog Entry:<textarea id="textarea"></textarea><br>
+			Keywords:  <input id="keywords"type="text"><br>
+
+			<button id="add">Add</button>
+		</fieldset>
+
+
+		<div class="wrapper" id="listView">
 			<section class="art1">
 			<h3>Week 1 Learnings/Review</h3>
 				<p>Started creating repositories from directories on my local system. Began working with git locally and on Github. Created the foundation of my github profile by making and committing files. Learned to push repositories to github while learning basic terminal commands.</p>
-				<footer class="artfooter">Author 1</footer>
+				<footer class="artfooter">Pete</footer>
 			</section>
 
 			<section class="art2">
@@ -22,28 +41,28 @@
 			</section>
 
 			<section class="art3">
-			<h3>Third Subject</h3>
-				<p>Id donec, cras aliquet sem elementum libero porttitor, tempor est eget adipiscing sagittis. Qui auctor hendrerit nulla iaculis quis, vel donec, suspendisse leo, ipsum cras. Sit duis, lorem duis pede phasellus lacus convallis. Non ut eu urna porta, vulputate donec etiam. Est mauris suspendisse nibh urna purus, arcu dolor nulla ante eu urna, sit nunc, dictum interdum habitant nullam tellus. </p>
+			<h3>Week 3 Learnings</h3>
+				<p>Week 3 introduced several new concepts as well as solidified previous elements that I have been working with. I began to work with event listeners more in depth. I was taught the fundamentals of Sass and what it is used for and that it entails creating a mirror-type css sheet for your projects. I learned about Bootstrap and Materialize, two frameworks that are commonly used in styling amongst developers.  I learned more about javascript in properly creating functions and I improved my understanding of these elements. I was also introduced to array method chaining in single page applications.</p>
 				<footer class="artfooter">Author 3</footer>
 			</section>
 
 			<section class="art4">
-			<h3>Fourth Subject</h3>
-				<p>Main us eget pellentesque at nibh arcu, rutrum quam tempus arcu ullamcorper, in nonummy. Class erat odio dolor rutrum quam convallis. Lectus lorem vel, ligula nec dis sit bibendum lorem lectus, arcu varius, vivamus sit a eu sed, quam convallis a diam cursus. Suscipit in rhoncus fringilla mauris ut, lectus pulvinar, eu mauris aliquam dolor in. Quis duis. Mi purus ante. Ut ultrices eros wisi sagittis cursus erat, interdum euismod vel malesuada eu. </p>
+			<h3>Week 4</h3>
+				<p>This week I began to learn the fundamentals of single page applications.  We were introduced to advanced functions, array functions, event listeners, XHR's, and IIFE's.  We completed a group project creating a simple translation platform for multiple languages.  I learned more about the way functions work and more advanced properties of arrays, event listeners, and objects.  The basics are now being utilized at a more advanced level and my coding is becoming complex.</p>
 				<footer class="artfooter">Author 4</footer>
 			</section>
 
 			<section class="art5">
 			<h3>Fifth Subject</h3>
-				<p>Inceptos viverra, vel sem, consectetuer ac aliquet habitasse justo adipiscing dui, rutrum nunc congue ante. Quam donec felis dolor mi sodales, blandit nunc eu erat tempus aliquam nullam, phasellus elit ligula, vel tempor nunc maecenas mollis, sem sed cras wisi eu orci et. Mauris ac, lectus tempus justo suspendisse dapibus nec adipiscing. Aenean orci semper, purus vulputate dictum. Posuere non dui erat proin lectus, taciti dui vitae suspendisse velit vestibulum ultrices, rutrum nunc eget nullam morbi justo amet. </p>
+				<p>Final week in the single page application milestone. This week was the most difficult for me so far. I feel like I am behind in learning about IIFE's and object augmentation.  I learned more about XHR requests and how to create projects (like Seasonal Sales) that modified item prices according to certain attributes or id's. I worked with string manipulation and advanced array methods.  I also completed projects that included function callbacks and parsing data from JSON files.  My learning has continued to grow in all aspects of coding. I need to study more about IIFEs, augmentation, and how to use Sass. I am concerned about my comprehension of these subjects.</p>
 				<footer class="artfooter">Author 5</footer>
 			</section>
+		</div>
 
 		<footer class="main">
-			<p>&copy; 2017 GavinWorks</p>
+			<p>&copy; 2017 Rillistik</p>
 		</footer>
-</div>
-
+		<script type="text/javascript" src="blog.js"></script>
 </body>
 
 </html>
